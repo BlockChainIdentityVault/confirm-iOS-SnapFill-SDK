@@ -1,0 +1,6 @@
+framework module ConfirmKit {
+  umbrella header "ConfirmKit.h"
+
+  export *
+  module * { export * }
+}
