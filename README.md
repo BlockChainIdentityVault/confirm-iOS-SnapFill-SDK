@@ -1,6 +1,6 @@
 # ConfirmKit for iOS
 
-ConfirmKit is a framework that makes it easy to extract personal information from your users' driver's licenses via the barcodes found on the backs of most U.S. and Canadian driver's licenses.
+ConfirmKit is a framework that makes it easy to extract personal information from your users' via the barcode found on the back of most U.S. and Canadian driver's licenses.
 
 ## Usage
 
