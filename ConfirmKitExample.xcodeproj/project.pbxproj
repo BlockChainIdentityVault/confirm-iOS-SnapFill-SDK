@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08539BF31C52E3FD009DC055 /* ConfirmKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08539BF21C52E3FD009DC055 /* ConfirmKit.framework */; };
-		08539BF41C52E3FD009DC055 /* ConfirmKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 08539BF21C52E3FD009DC055 /* ConfirmKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		087B3D761C44598300EC15EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 087B3D751C44598300EC15EE /* main.m */; };
 		087B3D791C44598300EC15EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 087B3D781C44598300EC15EE /* AppDelegate.m */; };
 		087B3D7C1C44598300EC15EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087B3D7B1C44598300EC15EE /* ViewController.m */; };
 		087B3D7F1C44598300EC15EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087B3D7D1C44598300EC15EE /* Main.storyboard */; };
 		087B3D811C44598300EC15EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087B3D801C44598300EC15EE /* Assets.xcassets */; };
 		087B3D841C44598300EC15EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087B3D821C44598300EC15EE /* LaunchScreen.storyboard */; };
+		08F03A851C5EF22900ABA187 /* ConfirmKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08539BF21C52E3FD009DC055 /* ConfirmKit.framework */; };
+		08F03A861C5EF22900ABA187 /* ConfirmKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 08539BF21C52E3FD009DC055 /* ConfirmKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		087B3D911C4459AB00EC15EE /* Embed Frameworks */ = {
+		081E0A741C598B8E00C0BF88 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				08539BF41C52E3FD009DC055 /* ConfirmKit.framework in Embed Frameworks */,
+				08F03A861C5EF22900ABA187 /* ConfirmKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08539BF31C52E3FD009DC055 /* ConfirmKit.framework in Frameworks */,
+				08F03A851C5EF22900ABA187 /* ConfirmKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,7 @@
 				087B3D6D1C44598300EC15EE /* Sources */,
 				087B3D6E1C44598300EC15EE /* Frameworks */,
 				087B3D6F1C44598300EC15EE /* Resources */,
-				087B3D911C4459AB00EC15EE /* Embed Frameworks */,
+				081E0A741C598B8E00C0BF88 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
