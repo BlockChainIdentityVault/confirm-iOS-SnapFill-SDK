@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		VlwD3NK/bEi/b8eVze46Ok+9f5I=
+		</data>
 		<key>CKScanViewController.nib</key>
 		<data>
-		4nHwS+xVT0BhOvIxTvu3IniSn9E=
+		YjvxkLVFmTbDWXxBz6qBj2gm/sY=
 		</data>
 		<key>Headers/CKBioModel.h</key>
 		<data>
@@ -38,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MeKB4skhN6JG2grZ62sGZuMTako=
+		NRH2o0uJ9TbLRFFX+JBXVVIFbmY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -69,7 +73,7 @@
 	<dict>
 		<key>CKScanViewController.nib</key>
 		<data>
-		4nHwS+xVT0BhOvIxTvu3IniSn9E=
+		YjvxkLVFmTbDWXxBz6qBj2gm/sY=
 		</data>
 		<key>Headers/CKBioModel.h</key>
 		<data>
