@@ -1,5 +1,9 @@
 # Confirm FormFill SDK
 
+Confirm.io's FormFill SDK reads and parses data from state and federally issued identity documents for use in your application. Simply include the SDK into your application, insert your API key (provided by Confirm.io), and allow your app's users to start scanning their IDs! Once scanned the data can be used not only to populate forms, but also to trigger automatic onboarding, user identification, marketing campaigns, and more!
+
+Confirm supports a wide variety of document types including Driver Licenses, Identity documents, and more! In addition, Confirm offers full coverage of documents issued by the United States. 
+
 // TODO: Get data from Kyle
 
 ## Usage
