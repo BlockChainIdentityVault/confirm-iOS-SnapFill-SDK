@@ -4,8 +4,6 @@ Confirm.io's FormFill SDK reads and parses data from state and federally issued 
 
 Confirm supports a wide variety of document types including Driver Licenses, Identity documents, and more! In addition, Confirm offers full coverage of documents issued by the United States. 
 
-// TODO: Get data from Kyle
-
 ## Usage
 
 Confirm's FormFill SDK provides a singleton object called `Confirm` that acts as the entry point to the framework's functionality.
