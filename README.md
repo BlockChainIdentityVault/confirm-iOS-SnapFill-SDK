@@ -1,19 +1,19 @@
-# ConfirmKit for iOS
+# Confirm FormFill SDK
 
-ConfirmKit is a framework that makes it easy to extract personal information from your users' via the barcode found on the back of most U.S. and Canadian driver's licenses.
+// TODO: Get data from Kyle
 
 ## Usage
 
-ConfirmKit provides a singleton object called `Confirm` that acts as the entry point to the framework's functionality.
+Confirm's FormFill SDK provides a singleton object called `Confirm` that acts as the entry point to the framework's functionality.
 
 ### Configure
 
-The first step is to authenticate the `Confirm` object with the API key you received from [Confirm.io](http://confirm.io/). This will remove the watermark on the default scan UI, and also allow you to set your own, custom scan overlay. You can do this by calling `configure:completion:` with your API key and optional completion block. We strongly recommend storing your API key in the `AppDelegate` implementation, rather than a property list, and calling `configure:` from `application:didFinishLaunchingWithOptions:`:
+The first step is to authenticate the `Confirm` object with the API key you received from [Confirm.io](http://confirm.io/). This will remove the watermark on the default scan UI, and also allow you to set your own custom scan overlay. You can do this by calling `configure:completion:` with your API key and optional completion block. We strongly recommend storing your API key in the `AppDelegate` implementation, rather than a property list, and calling `configure:` from `application:didFinishLaunchingWithOptions:`:
 
 ```objective-c
 #import <ConfirmKit/ConfirmKit.h>
 
-NSString *const ConfirmToken = @"d8e756c3-7542-4254-b453-9c8a34f0e77c";
+NSString *const ConfirmToken = @"{YOUR_API_KEY_HERE}";
 
 @implementation AppDelegate
 
