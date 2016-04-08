@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Confirm-FormFill"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "Confirm.io's FormFill SDK for extracting and parsing data from identity
   documents"
 
