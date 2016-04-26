@@ -14,7 +14,7 @@
             NSString *name = license.bio.firstName;
 
             // Construct an alert with that name as its message
-            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"License Found" message:license.bio.firstName preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"License Found" message:name preferredStyle:UIAlertControllerStyleAlert];
 
             // Add a simple action to cancel the alert
             [alert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
