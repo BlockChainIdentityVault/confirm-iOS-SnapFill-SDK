@@ -92,6 +92,10 @@ scanViewController.overlayView = [MyOverlayView new];
 
 If you don't see the overlay view changing, ensure first that the library is properly authenticated. A message will also be logged out if you attempt to call `setOverlayView:` before authenticating.
 
-## Example
+## Building and running the example on the device
 
 There is a [sample project](https://github.com/confirm-io/ios-ageverify-demo/tree/master/ConfirmKitExample) included in this repository that acts as a good reference for your own implementation.
+
+
+1. Select `ConfirmKitExample` as the active scheme and ensure you are building for **device (you cannot run this on the simulator)**
+2. Use <kbd>Cmd</kbd>+<kbd>R</kbd> to build and run the demo app.
