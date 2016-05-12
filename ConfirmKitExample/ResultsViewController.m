@@ -13,7 +13,7 @@
 #import "OneTableCell.h"
 #import "TwoTableCell.h"
 
-#define ENABLE_BACK_BUTTON	0
+#define ENABLE_BACK_BUTTON	1
 
 #define kOneTableCell		@"OneTableCell"
 #define kTwoTableCell		@"TwoTableCell"
