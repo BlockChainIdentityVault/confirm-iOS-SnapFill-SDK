@@ -13,14 +13,14 @@
 		087B3D7F1C44598300EC15EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087B3D7D1C44598300EC15EE /* Main.storyboard */; };
 		087B3D811C44598300EC15EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087B3D801C44598300EC15EE /* Assets.xcassets */; };
 		087B3D841C44598300EC15EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087B3D821C44598300EC15EE /* LaunchScreen.storyboard */; };
-		08F03A851C5EF22900ABA187 /* ConfirmKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08539BF21C52E3FD009DC055 /* ConfirmKit.framework */; };
-		08F03A861C5EF22900ABA187 /* ConfirmKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 08539BF21C52E3FD009DC055 /* ConfirmKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		370333DF1CE4468F00B2F24D /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 370333DD1CE4468F00B2F24D /* ResultsViewController.m */; };
 		370333E01CE4468F00B2F24D /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370333DE1CE4468F00B2F24D /* ResultsViewController.xib */; };
 		370333E91CE44FF600B2F24D /* TwoTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 370333E41CE44FF600B2F24D /* TwoTableCell.m */; };
 		370333EA1CE44FF600B2F24D /* TwoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370333E51CE44FF600B2F24D /* TwoTableCell.xib */; };
 		370333EB1CE44FF600B2F24D /* OneTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 370333E71CE44FF600B2F24D /* OneTableCell.m */; };
 		370333EC1CE44FF600B2F24D /* OneTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370333E81CE44FF600B2F24D /* OneTableCell.xib */; };
+		3744632E1CE50A1E00C42A1E /* ConfirmKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3744632D1CE50A1E00C42A1E /* ConfirmKit.framework */; };
+		3744632F1CE50AB400C42A1E /* ConfirmKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3744632D1CE50A1E00C42A1E /* ConfirmKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +30,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				08F03A861C5EF22900ABA187 /* ConfirmKit.framework in Embed Frameworks */,
+				3744632F1CE50AB400C42A1E /* ConfirmKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,7 +38,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		08539BF21C52E3FD009DC055 /* ConfirmKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ConfirmKit.framework; sourceTree = "<group>"; };
 		087B3D711C44598300EC15EE /* ConfirmKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfirmKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		087B3D751C44598300EC15EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		087B3D771C44598300EC15EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		370333E61CE44FF600B2F24D /* OneTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneTableCell.h; sourceTree = "<group>"; };
 		370333E71CE44FF600B2F24D /* OneTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneTableCell.m; sourceTree = "<group>"; };
 		370333E81CE44FF600B2F24D /* OneTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneTableCell.xib; sourceTree = "<group>"; };
+		3744632D1CE50A1E00C42A1E /* ConfirmKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ConfirmKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08F03A851C5EF22900ABA187 /* ConfirmKit.framework in Frameworks */,
+				3744632E1CE50A1E00C42A1E /* ConfirmKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 		087B3D681C44598300EC15EE = {
 			isa = PBXGroup;
 			children = (
-				08539BF21C52E3FD009DC055 /* ConfirmKit.framework */,
+				3744632D1CE50A1E00C42A1E /* ConfirmKit.framework */,
 				087B3D731C44598300EC15EE /* ConfirmKitExample */,
 				087B3D721C44598300EC15EE /* Products */,
 			);

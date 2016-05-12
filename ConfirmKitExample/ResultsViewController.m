@@ -70,8 +70,7 @@
 	}
 	
 	NSDateFormatter *dateFormatter = [NSDateFormatter new];
-	dateFormatter.timeStyle = NSDateFormatterNoStyle;
-	dateFormatter.dateStyle = NSDateFormatterShortStyle;
+	dateFormatter.dateFormat = @"MM-dd-yyyy";
 	
 	self.counts = @[
 					@[@2, @2, @2, @1, @2, @2],

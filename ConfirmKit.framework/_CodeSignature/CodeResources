@@ -6,7 +6,7 @@
 	<dict>
 		<key>CKScanViewController.nib</key>
 		<data>
-		rlrxg4mtvlGdN/xphL613Huf7tg=
+		wrFZUYN63wM5t8GJs/JWCj4iZI0=
 		</data>
 		<key>Headers/CKBioModel.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		n40mcUpcfPPmsT05G5ZAXQLT0T4=
+		YYq0NZwnUh3RMlG+MENI8Z6ToJA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,11 +71,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rlrxg4mtvlGdN/xphL613Huf7tg=
+			wrFZUYN63wM5t8GJs/JWCj4iZI0=
 			</data>
 			<key>hash2</key>
 			<data>
-			EBSSn0VNQHDxxWExLwl9p+GNn6yeJGIcXlNEuMkESPg=
+			RuvaFC9UDbcRNjXIk5WxVZ0/7U8P3FaskRx7TK8w/iE=
 			</data>
 		</dict>
 		<key>Headers/CKBioModel.h</key>
