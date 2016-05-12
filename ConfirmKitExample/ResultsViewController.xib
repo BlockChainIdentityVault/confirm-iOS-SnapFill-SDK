@@ -7,7 +7,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ResultsViewController">
             <connections>
-                <outlet property="backButton" destination="gym-2O-Ni3" id="IdE-F7-9dx"/>
+                <outlet property="backArrowImageView" destination="EI8-Be-BTg" id="rST-0G-wNV"/>
+                <outlet property="backButton" destination="5gd-oG-SwJ" id="s7Z-Wm-EP7"/>
                 <outlet property="tableView" destination="wxs-u3-Oa0" id="HBV-fV-PNZ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -23,18 +24,6 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gym-2O-Ni3" userLabel="Back Button">
-                    <rect key="frame" x="0.0" y="20" width="60" height="35"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="35" id="Fpi-wv-NIh"/>
-                        <constraint firstAttribute="width" constant="60" id="wRM-qk-8EI"/>
-                    </constraints>
-                    <inset key="contentEdgeInsets" minX="15" minY="5" maxX="15" maxY="5"/>
-                    <state key="normal" image="BackArrow"/>
-                    <connections>
-                        <action selector="backButtonTapped:" destination="-1" eventType="touchUpInside" id="XrK-NT-Ioc"/>
-                    </connections>
-                </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OI8-KG-Znj" userLabel="Start Over Button">
                     <rect key="frame" x="225" y="29" width="150" height="18"/>
                     <constraints>
@@ -68,11 +57,23 @@ Successfully!</string>
                     <nil key="highlightedColor"/>
                 </label>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" style="plain" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wxs-u3-Oa0">
-                    <rect key="frame" x="-0.5" y="217" width="375" height="450"/>
+                    <rect key="frame" x="0.0" y="217" width="375" height="450"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                 </tableView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackArrow" translatesAutoresizingMaskIntoConstraints="NO" id="EI8-Be-BTg" userLabel="Back Arrow Image">
+                    <rect key="frame" x="15" y="27" width="12" height="22"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gd-oG-SwJ">
+                    <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="NUz-xp-hrj"/>
+                    </constraints>
+                    <connections>
+                        <action selector="backButtonTapped:" destination="-1" eventType="touchUpInside" id="EMU-gG-nMY"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.47450980392156861" green="0.6470588235294118" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
@@ -89,12 +90,15 @@ Successfully!</string>
                 <constraint firstItem="OI8-KG-Znj" firstAttribute="centerY" secondItem="Lt9-x6-UbL" secondAttribute="centerY" id="XYr-Zi-V4a"/>
                 <constraint firstItem="HO0-EN-o2H" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Xm6-PK-Z8M"/>
                 <constraint firstItem="wxs-u3-Oa0" firstAttribute="top" secondItem="HO0-EN-o2H" secondAttribute="bottom" constant="21" id="aRm-PX-Umw"/>
+                <constraint firstItem="EI8-Be-BTg" firstAttribute="centerY" secondItem="Lt9-x6-UbL" secondAttribute="centerY" id="cCM-Nf-VEk"/>
                 <constraint firstAttribute="trailing" secondItem="BGf-jh-BO1" secondAttribute="trailing" id="fX0-a7-i8C"/>
-                <constraint firstItem="gym-2O-Ni3" firstAttribute="centerY" secondItem="Lt9-x6-UbL" secondAttribute="centerY" id="isA-EB-GIf"/>
+                <constraint firstItem="BGf-jh-BO1" firstAttribute="top" secondItem="5gd-oG-SwJ" secondAttribute="bottom" id="gga-IU-X9y"/>
                 <constraint firstItem="BGf-jh-BO1" firstAttribute="top" secondItem="Lt9-x6-UbL" secondAttribute="bottom" constant="10" id="lK4-uz-AE3"/>
-                <constraint firstItem="gym-2O-Ni3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="lWp-gy-JTf"/>
                 <constraint firstItem="HO0-EN-o2H" firstAttribute="top" secondItem="nFI-ZR-38s" secondAttribute="bottom" constant="10" id="sA5-E1-BK1"/>
+                <constraint firstItem="5gd-oG-SwJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="slB-Sv-czw"/>
                 <constraint firstAttribute="trailing" secondItem="HO0-EN-o2H" secondAttribute="trailing" constant="50" id="tsv-yN-LhS"/>
+                <constraint firstItem="5gd-oG-SwJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="uWe-bz-UBC"/>
+                <constraint firstItem="EI8-Be-BTg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="vNL-io-KTd"/>
                 <constraint firstAttribute="trailing" secondItem="OI8-KG-Znj" secondAttribute="trailing" id="vlE-Qv-dKG"/>
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
@@ -105,7 +109,7 @@ Successfully!</string>
                     <exclude reference="tsv-yN-LhS"/>
                 </mask>
             </variation>
-            <point key="canvasLocation" x="396.5" y="394.5"/>
+            <point key="canvasLocation" x="372.5" y="385.5"/>
         </view>
     </objects>
     <resources>

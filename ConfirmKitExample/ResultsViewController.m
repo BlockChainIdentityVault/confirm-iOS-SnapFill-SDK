@@ -25,6 +25,7 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UIButton *backButton;
+@property (weak, nonatomic) IBOutlet UIImageView *backArrowImageView;
 
 @property (nonatomic, strong) NSArray *titles;
 @property (nonatomic, strong) NSArray *values;
@@ -53,7 +54,8 @@
 	
 #if ENABLE_BACK_BUTTON
 #else
-	self.backButton.hidden = YES;
+	self.backButton.hidden =
+	self.backArrowImageView.hidden = YES;
 #endif
 }
 
