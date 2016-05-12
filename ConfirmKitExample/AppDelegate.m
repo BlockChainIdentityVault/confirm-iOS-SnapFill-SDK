@@ -1,7 +1,7 @@
 #import "AppDelegate.h"
 #import <ConfirmKit/ConfirmKit.h>
 
-NSString *const ConfirmToken = @"11bfbcce-f244-40f3-ac52-9b4bdfea3ebe";
+NSString *const ConfirmToken = @"{YOUR_API_KEY}";
 
 @implementation AppDelegate
 
