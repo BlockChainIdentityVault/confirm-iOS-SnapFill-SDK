@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@interface CKBioModel : NSObject
+@interface CSFBioModel : NSObject
 
 @property (nonatomic, retain) NSString *firstName;
 @property (nonatomic, retain) NSString *lastName;

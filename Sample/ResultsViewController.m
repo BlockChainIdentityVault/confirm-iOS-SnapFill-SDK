@@ -1,6 +1,6 @@
 //
 //  ResultsViewController.m
-//  ConfirmKitExample
+//  ConfirmSnapFill Sample
 //
 //  Created by Greg Peet on 5/10/16.
 //
@@ -8,7 +8,7 @@
 
 #import "ResultsViewController.h"
 
-#import <ConfirmKit/ConfirmKit.h>
+#import <ConfirmSnapFill/ConfirmSnapFill.h>
 
 #import "OneTableCell.h"
 #import "TwoTableCell.h"
@@ -59,11 +59,11 @@
 #endif
 }
 
-- (void)setIdModel:(CKIdModel *)idModel
+- (void)setIdModel:(CSFIdModel *)idModel
 {
 	_idModel = idModel;
-	CKIssuanceModel *issuanceModel  = idModel.issuance;
-	CKBioModel		*bioModel		= idModel.bio;
+	CSFIssuanceModel *issuanceModel  = idModel.issuance;
+	CSFBioModel		*bioModel		= idModel.bio;
 	
 	NSInteger age = 0;
 	if (bioModel.birthday) {

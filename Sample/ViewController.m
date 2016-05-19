@@ -1,6 +1,6 @@
 #import "ViewController.h"
 #import "ResultsViewController.h"
-#import <ConfirmKit/ConfirmKit.h>
+#import <ConfirmSnapFill/ConfirmSnapFill.h>
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *startButton;
@@ -33,17 +33,17 @@
 	[self.navigationController popToRootViewControllerAnimated:NO];
 }
 
-#pragma mark - ConfirmKit
+#pragma mark - ConfirmSnapFill
 
 - (IBAction)scan
 {
     // Initialized and return view controller for scanning
-    CKScanViewController *vc = [Confirm.sharedInstance scanLicenseWithCompletion:^(CKIdModel *license) {
+    CSFScanViewController *vc = [SnapFill.sharedInstance scanLicenseWithCompletion:^(CSFIdModel *license) {
 
 		// Prepare the results view controller
 		ResultsViewController *rvc = [ResultsViewController controller];
 		
-		// Set the scanned data (see the CKIdModel header for usage)
+		// Set the scanned data (see the CSFIdModel header for usage)
 		rvc.idModel = license;
 		
         // In this completion block, we want to dismiss the view controller and display a results view controller

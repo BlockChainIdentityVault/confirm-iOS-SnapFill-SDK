@@ -1,0 +1,6 @@
+framework module ConfirmSnapFill {
+  umbrella header "ConfirmSnapFill.h"
+
+  export *
+  module * { export * }
+}
