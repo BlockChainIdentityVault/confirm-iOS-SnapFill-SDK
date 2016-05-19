@@ -7,12 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		087B3D761C44598300EC15EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 087B3D751C44598300EC15EE /* main.m */; };
 		087B3D791C44598300EC15EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 087B3D781C44598300EC15EE /* AppDelegate.m */; };
 		087B3D7C1C44598300EC15EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087B3D7B1C44598300EC15EE /* ViewController.m */; };
-		087B3D7F1C44598300EC15EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087B3D7D1C44598300EC15EE /* Main.storyboard */; };
 		087B3D811C44598300EC15EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087B3D801C44598300EC15EE /* Assets.xcassets */; };
-		087B3D841C44598300EC15EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087B3D821C44598300EC15EE /* LaunchScreen.storyboard */; };
 		370333DF1CE4468F00B2F24D /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 370333DD1CE4468F00B2F24D /* ResultsViewController.m */; };
 		370333E01CE4468F00B2F24D /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370333DE1CE4468F00B2F24D /* ResultsViewController.xib */; };
 		370333E91CE44FF600B2F24D /* TwoTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 370333E41CE44FF600B2F24D /* TwoTableCell.m */; };
@@ -20,6 +17,10 @@
 		370333EB1CE44FF600B2F24D /* OneTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 370333E71CE44FF600B2F24D /* OneTableCell.m */; };
 		370333EC1CE44FF600B2F24D /* OneTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370333E81CE44FF600B2F24D /* OneTableCell.xib */; };
 		3769D0C71CED90E7000012A0 /* ConfirmSnapFill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3769D0C61CED90E7000012A0 /* ConfirmSnapFill.framework */; };
+		3769D0CF1CED9B06000012A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3769D0CE1CED9B06000012A0 /* main.m */; };
+		3769D0D81CED9CC1000012A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3769D0D41CED9CC1000012A0 /* LaunchScreen.storyboard */; };
+		3769D0D91CED9CC1000012A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3769D0D61CED9CC1000012A0 /* Main.storyboard */; };
+		3769D0DA1CED9D7A000012A0 /* ConfirmSnapFill.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3769D0C61CED90E7000012A0 /* ConfirmSnapFill.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				3769D0DA1CED9D7A000012A0 /* ConfirmSnapFill.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,9 +44,7 @@
 		087B3D781C44598300EC15EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		087B3D7A1C44598300EC15EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		087B3D7B1C44598300EC15EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		087B3D7E1C44598300EC15EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		087B3D801C44598300EC15EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		087B3D831C44598300EC15EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		087B3D851C44598300EC15EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		370333DC1CE4468F00B2F24D /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
 		370333DD1CE4468F00B2F24D /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
@@ -56,6 +56,9 @@
 		370333E71CE44FF600B2F24D /* OneTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneTableCell.m; sourceTree = "<group>"; };
 		370333E81CE44FF600B2F24D /* OneTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneTableCell.xib; sourceTree = "<group>"; };
 		3769D0C61CED90E7000012A0 /* ConfirmSnapFill.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ConfirmSnapFill.framework; sourceTree = "<group>"; };
+		3769D0CE1CED9B06000012A0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3769D0D51CED9CC1000012A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3769D0D71CED9CC1000012A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +77,25 @@
 			isa = PBXGroup;
 			children = (
 				3769D0C51CED90E7000012A0 /* ConfirmSnapFill SDK */,
-				087B3D731C44598300EC15EE /* Sample */,
+				370333E31CE44FF600B2F24D /* TwoTableCell.h */,
+				370333E41CE44FF600B2F24D /* TwoTableCell.m */,
+				370333E51CE44FF600B2F24D /* TwoTableCell.xib */,
+				370333E61CE44FF600B2F24D /* OneTableCell.h */,
+				370333E71CE44FF600B2F24D /* OneTableCell.m */,
+				370333E81CE44FF600B2F24D /* OneTableCell.xib */,
+				087B3D771C44598300EC15EE /* AppDelegate.h */,
+				087B3D781C44598300EC15EE /* AppDelegate.m */,
+				087B3D7A1C44598300EC15EE /* ViewController.h */,
+				087B3D7B1C44598300EC15EE /* ViewController.m */,
+				370333DC1CE4468F00B2F24D /* ResultsViewController.h */,
+				370333DD1CE4468F00B2F24D /* ResultsViewController.m */,
+				370333DE1CE4468F00B2F24D /* ResultsViewController.xib */,
+				087B3D801C44598300EC15EE /* Assets.xcassets */,
+				3769D0D41CED9CC1000012A0 /* LaunchScreen.storyboard */,
+				3769D0D61CED9CC1000012A0 /* Main.storyboard */,
+				087B3D851C44598300EC15EE /* Info.plist */,
+				3769D0CE1CED9B06000012A0 /* main.m */,
+				087B3D741C44598300EC15EE /* Supporting Files */,
 				087B3D721C44598300EC15EE /* Products */,
 			);
 			indentWidth = 4;
@@ -89,53 +110,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		087B3D731C44598300EC15EE /* Sample */ = {
-			isa = PBXGroup;
-			children = (
-				370333E21CE44FCC00B2F24D /* Views */,
-				370333E11CE44FC500B2F24D /* View Controllers */,
-				087B3D801C44598300EC15EE /* Assets.xcassets */,
-				087B3D821C44598300EC15EE /* LaunchScreen.storyboard */,
-				087B3D851C44598300EC15EE /* Info.plist */,
-				087B3D741C44598300EC15EE /* Supporting Files */,
-			);
-			path = Sample;
-			sourceTree = "<group>";
-		};
 		087B3D741C44598300EC15EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				087B3D751C44598300EC15EE /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		370333E11CE44FC500B2F24D /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				087B3D771C44598300EC15EE /* AppDelegate.h */,
-				087B3D781C44598300EC15EE /* AppDelegate.m */,
-				087B3D7A1C44598300EC15EE /* ViewController.h */,
-				087B3D7B1C44598300EC15EE /* ViewController.m */,
-				087B3D7D1C44598300EC15EE /* Main.storyboard */,
-				370333DC1CE4468F00B2F24D /* ResultsViewController.h */,
-				370333DD1CE4468F00B2F24D /* ResultsViewController.m */,
-				370333DE1CE4468F00B2F24D /* ResultsViewController.xib */,
-			);
-			name = "View Controllers";
-			sourceTree = "<group>";
-		};
-		370333E21CE44FCC00B2F24D /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				370333E31CE44FF600B2F24D /* TwoTableCell.h */,
-				370333E41CE44FF600B2F24D /* TwoTableCell.m */,
-				370333E51CE44FF600B2F24D /* TwoTableCell.xib */,
-				370333E61CE44FF600B2F24D /* OneTableCell.h */,
-				370333E71CE44FF600B2F24D /* OneTableCell.m */,
-				370333E81CE44FF600B2F24D /* OneTableCell.xib */,
-			);
-			name = Views;
+			path = Sample;
 			sourceTree = "<group>";
 		};
 		3769D0C51CED90E7000012A0 /* ConfirmSnapFill SDK */ = {
@@ -143,7 +124,8 @@
 			children = (
 				3769D0C61CED90E7000012A0 /* ConfirmSnapFill.framework */,
 			);
-			path = "ConfirmSnapFill SDK";
+			name = "ConfirmSnapFill SDK";
+			path = "../ConfirmSnapFill SDK";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,12 +186,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				087B3D841C44598300EC15EE /* LaunchScreen.storyboard in Resources */,
 				370333EC1CE44FF600B2F24D /* OneTableCell.xib in Resources */,
 				370333EA1CE44FF600B2F24D /* TwoTableCell.xib in Resources */,
-				087B3D811C44598300EC15EE /* Assets.xcassets in Resources */,
-				087B3D7F1C44598300EC15EE /* Main.storyboard in Resources */,
 				370333E01CE4468F00B2F24D /* ResultsViewController.xib in Resources */,
+				3769D0D91CED9CC1000012A0 /* Main.storyboard in Resources */,
+				3769D0D81CED9CC1000012A0 /* LaunchScreen.storyboard in Resources */,
+				087B3D811C44598300EC15EE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,8 +205,8 @@
 				087B3D7C1C44598300EC15EE /* ViewController.m in Sources */,
 				370333E91CE44FF600B2F24D /* TwoTableCell.m in Sources */,
 				087B3D791C44598300EC15EE /* AppDelegate.m in Sources */,
-				087B3D761C44598300EC15EE /* main.m in Sources */,
 				370333DF1CE4468F00B2F24D /* ResultsViewController.m in Sources */,
+				3769D0CF1CED9B06000012A0 /* main.m in Sources */,
 				370333EB1CE44FF600B2F24D /* OneTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,20 +214,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		087B3D7D1C44598300EC15EE /* Main.storyboard */ = {
+		3769D0D41CED9CC1000012A0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				087B3D7E1C44598300EC15EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		087B3D821C44598300EC15EE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				087B3D831C44598300EC15EE /* Base */,
+				3769D0D51CED9CC1000012A0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3769D0D61CED9CC1000012A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3769D0D71CED9CC1000012A0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -341,15 +323,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK",
 					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/ConfirmSnapFill",
-					SDK,
 				);
-				INFOPLIST_FILE = Sample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.confirm.demo.ios.formfill;
+				PRODUCT_BUNDLE_IDENTIFIER = io.confirm.demo.ios.snapfill;
 				PRODUCT_NAME = ConfirmSnapFillSample;
 				PROVISIONING_PROFILE = "";
 			};
@@ -363,15 +343,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK",
 					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/ConfirmSnapFill",
-					SDK,
 				);
-				INFOPLIST_FILE = Sample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.confirm.demo.ios.formfill;
+				PRODUCT_BUNDLE_IDENTIFIER = io.confirm.demo.ios.snapfill;
 				PRODUCT_NAME = ConfirmSnapFillSample;
 				PROVISIONING_PROFILE = "";
 			};
