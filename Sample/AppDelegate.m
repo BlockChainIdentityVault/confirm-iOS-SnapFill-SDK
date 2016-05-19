@@ -1,13 +1,13 @@
 #import "AppDelegate.h"
-#import <ConfirmKit/ConfirmKit.h>
+#import <ConfirmSnapFill/ConfirmSnapFill.h>
 
-NSString *const ConfirmToken = @"{YOUR_API_KEY}";
+NSString *const ConfirmSnapFillToken = @"{YOUR_API_KEY}";
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [[Confirm sharedInstance] configure:ConfirmToken completion:nil];
+    [[SnapFill sharedInstance] configure:ConfirmSnapFillToken completion:nil];
 
     return YES;
 }

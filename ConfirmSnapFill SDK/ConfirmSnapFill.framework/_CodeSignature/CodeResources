@@ -4,214 +4,74 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>CKScanViewController.nib</key>
-		<data>
-		bg7NgG+Dt//W/lCMqDPwsbfQ5EU=
-		</data>
-		<key>Headers/CKBioModel.h</key>
-		<data>
-		awYhpy9HdbU6DVGWQf1OJ/4kb18=
-		</data>
-		<key>Headers/CKIdModel.h</key>
-		<data>
-		sTD1EGTc1NKxIP68jQjIRq7T2IA=
-		</data>
-		<key>Headers/CKIssuanceModel.h</key>
-		<data>
-		hBjgSpl7FdgDMDx1F3yJsXAACVk=
-		</data>
-		<key>Headers/CKScanViewController.h</key>
-		<data>
-		z8XvEWxTM1qDIzsUNy+38CYh8nE=
-		</data>
-		<key>Headers/CKScannerDelegate.h</key>
-		<data>
-		NNkGu2fGfhUsMkKHeXswG8j1xaQ=
-		</data>
-		<key>Headers/Confirm.h</key>
-		<data>
-		WLDI5HYMxEbS4LXCrpMkxi50mTc=
-		</data>
-		<key>Headers/ConfirmKit.h</key>
-		<data>
-		+n6MI5DfcGhBLPudvscNZEN36+o=
-		</data>
-		<key>Info.plist</key>
-		<data>
-		YYq0NZwnUh3RMlG+MENI8Z6ToJA=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		XYMGyESxq/dV05Xp73R2BVkty94=
-		</data>
-		<key>back-arrow@1x.png</key>
-		<data>
-		v5EvTTNBtTkU3RFIA0+zyVjmI9c=
-		</data>
-		<key>back-arrow@2x.png</key>
-		<data>
-		pG919msCfpmeOBFmXZzehbSGFyo=
-		</data>
-		<key>back-arrow@3x.png</key>
-		<data>
-		V4mWhiLfdbsKe+w3hPP2C6eska4=
-		</data>
-		<key>back@1x.png</key>
+		<key>CSFBack@1x.png</key>
 		<data>
 		jteb4bPwQdWUFAZyewyn0EzeZaw=
 		</data>
-		<key>back@2x.png</key>
+		<key>CSFBack@2x.png</key>
 		<data>
 		qDoJEtCkz5SrTqHRSrkoJeJJBJA=
 		</data>
-		<key>back@3x.png</key>
+		<key>CSFBack@3x.png</key>
 		<data>
 		ZWkwbH9h1ZyQ+Zmd0xobMHqzNws=
 		</data>
-		<key>barcode-white.png</key>
+		<key>CSFBarcodeWhite.png</key>
 		<data>
 		i5lL9YiYN9lAyxcapBhlMAUzF2U=
 		</data>
-		<key>logo.png</key>
+		<key>CSFLogo.png</key>
 		<data>
 		jTU+pFtNeUI44UIsFFXApwHNczo=
+		</data>
+		<key>CSFScanViewController.nib</key>
+		<data>
+		FiDVlDIaQmwHWXO1Fst879T2NdQ=
+		</data>
+		<key>Headers/CSFBioModel.h</key>
+		<data>
+		fHlHQ+KiGednAH5H6G4FbKZyuGc=
+		</data>
+		<key>Headers/CSFIdModel.h</key>
+		<data>
+		uwhxRI7EL5V/rsRgbUAyykPWjMA=
+		</data>
+		<key>Headers/CSFIssuanceModel.h</key>
+		<data>
+		7eydbdUHr7WON4p+8ru3xLARqKo=
+		</data>
+		<key>Headers/CSFScanViewController.h</key>
+		<data>
+		iDA1q4g1D3v4AZT8V+uOoT4OEVc=
+		</data>
+		<key>Headers/CSFScannerDelegate.h</key>
+		<data>
+		t3CupdKnu2vZ9Mk1W7ZP7brYC3o=
+		</data>
+		<key>Headers/ConfirmSnapFill.h</key>
+		<data>
+		Wga0PjDW9Z1qCHJLVmPhC23vHlA=
+		</data>
+		<key>Headers/SnapFill.h</key>
+		<data>
+		bqQN6qVpmgHeWyExKKwmPNcLibM=
+		</data>
+		<key>Info.plist</key>
+		<data>
+		ULx6YYia/4zMcgHJkliowo/L6Qw=
+		</data>
+		<key>LICENSE</key>
+		<data>
+		khcM3ANLL/gZMj/2cNO3JmyL/80=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		H3nZyHpdyxKorwk5gqJXwJKovyE=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>CKScanViewController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bg7NgG+Dt//W/lCMqDPwsbfQ5EU=
-			</data>
-			<key>hash2</key>
-			<data>
-			xQlgDk+LDtgtDMEJJs+fNxiwla7ap54hTQPxNQjyT7s=
-			</data>
-		</dict>
-		<key>Headers/CKBioModel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			awYhpy9HdbU6DVGWQf1OJ/4kb18=
-			</data>
-			<key>hash2</key>
-			<data>
-			MaGR2K7OwKqE9xOv4RbTB0DHjvIUvzIztyIXrd9Gvrg=
-			</data>
-		</dict>
-		<key>Headers/CKIdModel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sTD1EGTc1NKxIP68jQjIRq7T2IA=
-			</data>
-			<key>hash2</key>
-			<data>
-			KaawYBaYUa1d3CofL7blpFuypCrtPMIlgmEb7eHCG0k=
-			</data>
-		</dict>
-		<key>Headers/CKIssuanceModel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hBjgSpl7FdgDMDx1F3yJsXAACVk=
-			</data>
-			<key>hash2</key>
-			<data>
-			yQ0sV+hekeef4UGXOkHVXSTISxaRLNnlepGpwgq8ky8=
-			</data>
-		</dict>
-		<key>Headers/CKScanViewController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			z8XvEWxTM1qDIzsUNy+38CYh8nE=
-			</data>
-			<key>hash2</key>
-			<data>
-			DtCl4AjiwaE7mpeVO6EDg2skMWaWBp34wx/R64fBjR8=
-			</data>
-		</dict>
-		<key>Headers/CKScannerDelegate.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NNkGu2fGfhUsMkKHeXswG8j1xaQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			HCeZq+HqfZvQrNeKx4Pd5ZDb7vqQDjsORPWYqGPvsC8=
-			</data>
-		</dict>
-		<key>Headers/Confirm.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WLDI5HYMxEbS4LXCrpMkxi50mTc=
-			</data>
-			<key>hash2</key>
-			<data>
-			zAEiwYsSnbInkVOTCXaOjqAyWUiNIAA8Gp/DIb23X+M=
-			</data>
-		</dict>
-		<key>Headers/ConfirmKit.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+n6MI5DfcGhBLPudvscNZEN36+o=
-			</data>
-			<key>hash2</key>
-			<data>
-			mJvslYar9vcRc6FzgHp3cMLZHRD3X3RZa9RqIwhiyPY=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XYMGyESxq/dV05Xp73R2BVkty94=
-			</data>
-			<key>hash2</key>
-			<data>
-			thcN34cCalJ2epk4tEi0+csI2h0HX9cYACbaEwlLNR8=
-			</data>
-		</dict>
-		<key>back-arrow@1x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			v5EvTTNBtTkU3RFIA0+zyVjmI9c=
-			</data>
-			<key>hash2</key>
-			<data>
-			/JmRYuA2pvG77fsFnO/Vxof2gDGcDlT2Tt0WZ9BnjPM=
-			</data>
-		</dict>
-		<key>back-arrow@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pG919msCfpmeOBFmXZzehbSGFyo=
-			</data>
-			<key>hash2</key>
-			<data>
-			PMWnqN4XXeAqeS3ZT4LBkE8i6ZpuNL/N9oy4Acm4kIQ=
-			</data>
-		</dict>
-		<key>back-arrow@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			V4mWhiLfdbsKe+w3hPP2C6eska4=
-			</data>
-			<key>hash2</key>
-			<data>
-			K8TqMvCpV5mBsdhA+6Eds9ZZ8NvC4IGVHRHCXLtbn1E=
-			</data>
-		</dict>
-		<key>back@1x.png</key>
+		<key>CSFBack@1x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -222,7 +82,7 @@
 			Ypx6Gj1ia7T2+j6Bw4M4vcSyh1d2L4RFLJELsq0VUVA=
 			</data>
 		</dict>
-		<key>back@2x.png</key>
+		<key>CSFBack@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -233,7 +93,7 @@
 			Gmyqg0WI8JnOUp8RPDg26JqETdSKODldPPDV8EaRafg=
 			</data>
 		</dict>
-		<key>back@3x.png</key>
+		<key>CSFBack@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -244,7 +104,7 @@
 			bwItX+f38rfyhhFOSm9sRS5XJRQ7fMP6M+prYiGEAO0=
 			</data>
 		</dict>
-		<key>barcode-white.png</key>
+		<key>CSFBarcodeWhite.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -255,7 +115,7 @@
 			Jb8JrsM78o06O9lhCjHtasdTHIo0zODSRRD3TNY3fgc=
 			</data>
 		</dict>
-		<key>logo.png</key>
+		<key>CSFLogo.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -264,6 +124,116 @@
 			<key>hash2</key>
 			<data>
 			hiPNL+tMplltqL8Kqe3dctao7klPFOod780Em3FrcfM=
+			</data>
+		</dict>
+		<key>CSFScanViewController.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FiDVlDIaQmwHWXO1Fst879T2NdQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			699Rn+jp8mIoUJS0o09HueM59Awp44sqwqWiU/a5DqU=
+			</data>
+		</dict>
+		<key>Headers/CSFBioModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fHlHQ+KiGednAH5H6G4FbKZyuGc=
+			</data>
+			<key>hash2</key>
+			<data>
+			JoH/F3eH0pNPNO+02o+2utRCr5uzBBKe8uOQNRTpZ2I=
+			</data>
+		</dict>
+		<key>Headers/CSFIdModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uwhxRI7EL5V/rsRgbUAyykPWjMA=
+			</data>
+			<key>hash2</key>
+			<data>
+			qieZLBG1DhFPuuwfOQ8+fW1X9W6d4VUr7OcLmPz6rBs=
+			</data>
+		</dict>
+		<key>Headers/CSFIssuanceModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7eydbdUHr7WON4p+8ru3xLARqKo=
+			</data>
+			<key>hash2</key>
+			<data>
+			aiX16xmtzNBwLXvY+7FHszRQc3S20km3pdt8BhABAaE=
+			</data>
+		</dict>
+		<key>Headers/CSFScanViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iDA1q4g1D3v4AZT8V+uOoT4OEVc=
+			</data>
+			<key>hash2</key>
+			<data>
+			zZLP6KT0SszRQUIgaa5LEZlNhJxtGyFh71HoIlHHivE=
+			</data>
+		</dict>
+		<key>Headers/CSFScannerDelegate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t3CupdKnu2vZ9Mk1W7ZP7brYC3o=
+			</data>
+			<key>hash2</key>
+			<data>
+			yUAP4ZcMXd51wDf/wR7UEgXutkAIq6g+9fYF7rTc1+U=
+			</data>
+		</dict>
+		<key>Headers/ConfirmSnapFill.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Wga0PjDW9Z1qCHJLVmPhC23vHlA=
+			</data>
+			<key>hash2</key>
+			<data>
+			CcjbZENp/NvkLc5wGG0+318+8J4zToi1NpBFTbBdLaw=
+			</data>
+		</dict>
+		<key>Headers/SnapFill.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bqQN6qVpmgHeWyExKKwmPNcLibM=
+			</data>
+			<key>hash2</key>
+			<data>
+			f7mmW3pD3v5E3V/tUjcGCkjtxWji21AsYoklNDZNUBE=
+			</data>
+		</dict>
+		<key>LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			khcM3ANLL/gZMj/2cNO3JmyL/80=
+			</data>
+			<key>hash2</key>
+			<data>
+			tAkwu8+AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M+E=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H3nZyHpdyxKorwk5gqJXwJKovyE=
+			</data>
+			<key>hash2</key>
+			<data>
+			mj/oauvU/PeY8iBsKbibuORgFd8/wbmQZOV6fBLMrf8=
 			</data>
 		</dict>
 	</dict>

@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@interface CKIssuanceModel : NSObject
+@interface CSFIssuanceModel : NSObject
 
 @property (nonatomic, retain) NSString *number;
 @property (nonatomic, retain) NSDate *issued;
