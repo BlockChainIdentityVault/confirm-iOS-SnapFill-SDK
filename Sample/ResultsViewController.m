@@ -65,6 +65,8 @@
 	CSFIssuanceModel *issuanceModel  = idModel.issuance;
 	CSFBioModel		*bioModel		= idModel.bio;
 	
+	BOOL showCountry = idModel.bio.country && idModel.bio.country.length;
+	
 	NSInteger age = 0;
 	if (bioModel.birthday) {
 		NSTimeInterval ti = [NSDate.date timeIntervalSinceDate:bioModel.birthday];
@@ -75,12 +77,24 @@
 	dateFormatter.dateFormat = @"MM-dd-yyyy";
 	
 	self.counts = @[
-					@[@2, @2, @2, @1, @2, @2],
-					@[@2, @1],
+					@[@2,
+					  @2,
+					  @2,
+					  @1,
+					  @2,
+					  showCountry?@2:@1],
+					@[@2,
+					  @1],
 					];
 	self.titles = @[
-					@[@"First Name", @"Middle Name", @"Last Name", @"Gender", @"Age", @"DOB", @"Address", @"City", @"State", @"Zip Code", @"Country"],
-					@[@"Number", @"Issue Date", @"Expiration Date"],
+					@[@"First Name", @"Middle Name",
+					   @"Last Name", @"Gender",
+					   @"Age", @"DOB",
+					   @"Address",
+					   @"City", @"State",
+					   @"Zip Code", @"Country"],
+					 @[@"Number", @"Issue Date",
+					   @"Expiration Date"],
 					];
 	
 	self.values = @[
