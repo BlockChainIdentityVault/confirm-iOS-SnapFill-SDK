@@ -16,21 +16,21 @@
 		370333EA1CE44FF600B2F24D /* TwoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370333E51CE44FF600B2F24D /* TwoTableCell.xib */; };
 		370333EB1CE44FF600B2F24D /* OneTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 370333E71CE44FF600B2F24D /* OneTableCell.m */; };
 		370333EC1CE44FF600B2F24D /* OneTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370333E81CE44FF600B2F24D /* OneTableCell.xib */; };
-		3769D0C71CED90E7000012A0 /* ConfirmSnapFill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3769D0C61CED90E7000012A0 /* ConfirmSnapFill.framework */; };
 		3769D0CF1CED9B06000012A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3769D0CE1CED9B06000012A0 /* main.m */; };
 		3769D0D81CED9CC1000012A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3769D0D41CED9CC1000012A0 /* LaunchScreen.storyboard */; };
 		3769D0D91CED9CC1000012A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3769D0D61CED9CC1000012A0 /* Main.storyboard */; };
-		3769D0DA1CED9D7A000012A0 /* ConfirmSnapFill.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3769D0C61CED90E7000012A0 /* ConfirmSnapFill.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		377DC0541D6434BD009DC7B6 /* ConfirmSnapFill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377DC0531D6434BD009DC7B6 /* ConfirmSnapFill.framework */; };
+		377DC0551D6434BD009DC7B6 /* ConfirmSnapFill.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 377DC0531D6434BD009DC7B6 /* ConfirmSnapFill.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		081E0A741C598B8E00C0BF88 /* Embed Frameworks */ = {
+		B00E75061D622C12000A4628 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3769D0DA1CED9D7A000012A0 /* ConfirmSnapFill.framework in Embed Frameworks */,
+				377DC0551D6434BD009DC7B6 /* ConfirmSnapFill.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,10 +55,10 @@
 		370333E61CE44FF600B2F24D /* OneTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneTableCell.h; sourceTree = "<group>"; };
 		370333E71CE44FF600B2F24D /* OneTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneTableCell.m; sourceTree = "<group>"; };
 		370333E81CE44FF600B2F24D /* OneTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneTableCell.xib; sourceTree = "<group>"; };
-		3769D0C61CED90E7000012A0 /* ConfirmSnapFill.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ConfirmSnapFill.framework; sourceTree = "<group>"; };
 		3769D0CE1CED9B06000012A0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3769D0D51CED9CC1000012A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3769D0D71CED9CC1000012A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		377DC0531D6434BD009DC7B6 /* ConfirmSnapFill.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConfirmSnapFill.framework; path = "../ConfirmSnapFill SDK/ConfirmSnapFill.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3769D0C71CED90E7000012A0 /* ConfirmSnapFill.framework in Frameworks */,
+				377DC0541D6434BD009DC7B6 /* ConfirmSnapFill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +76,7 @@
 		087B3D681C44598300EC15EE = {
 			isa = PBXGroup;
 			children = (
-				3769D0C51CED90E7000012A0 /* ConfirmSnapFill SDK */,
+				377DC0531D6434BD009DC7B6 /* ConfirmSnapFill.framework */,
 				370333E31CE44FF600B2F24D /* TwoTableCell.h */,
 				370333E41CE44FF600B2F24D /* TwoTableCell.m */,
 				370333E51CE44FF600B2F24D /* TwoTableCell.xib */,
@@ -119,15 +119,6 @@
 			path = Sample;
 			sourceTree = "<group>";
 		};
-		3769D0C51CED90E7000012A0 /* ConfirmSnapFill SDK */ = {
-			isa = PBXGroup;
-			children = (
-				3769D0C61CED90E7000012A0 /* ConfirmSnapFill.framework */,
-			);
-			name = "ConfirmSnapFill SDK";
-			path = "../ConfirmSnapFill SDK";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,7 +129,7 @@
 				087B3D6D1C44598300EC15EE /* Sources */,
 				087B3D6E1C44598300EC15EE /* Frameworks */,
 				087B3D6F1C44598300EC15EE /* Resources */,
-				081E0A741C598B8E00C0BF88 /* Embed Frameworks */,
+				B00E75061D622C12000A4628 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -325,6 +316,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -345,6 +337,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

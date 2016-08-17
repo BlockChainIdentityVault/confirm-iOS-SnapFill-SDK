@@ -83,18 +83,18 @@
 					  @1,
 					  @2,
 					  showCountry?@2:@1],
-					@[@2,
+  					@[@2,
 					  @1],
 					];
 	self.titles = @[
 					@[@"First Name", @"Middle Name",
-					   @"Last Name", @"Gender",
-					   @"Age", @"DOB",
-					   @"Address",
-					   @"City", @"State",
-					   @"Zip Code", @"Country"],
-					 @[@"Number", @"Issue Date",
-					   @"Expiration Date"],
+					  @"Last Name", @"Gender",
+					  @"Age", @"DOB",
+					  @"Address",
+					  @"City", @"State",
+					  @"Zip Code", @"Country"],
+					@[@"Number", @"Issue Date",
+					  @"Expiration Date"],
 					];
 	
 	self.values = @[
