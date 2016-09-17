@@ -1,10 +1,7 @@
 #import "ViewController.h"
-#import "ResultsViewController.h"
 #import <ConfirmSnapFill/ConfirmSnapFill.h>
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UIButton *startButton;
-
 @end
 
 @implementation ViewController
@@ -15,53 +12,62 @@
 {
 	[super viewDidLoad];
 	
-	self.startButton.layer.borderColor = UIColor.whiteColor.CGColor;
-	self.startButton.layer.borderWidth = 2.f;
-	self.startButton.layer.cornerRadius = 5.f;
-	
+	// Listen for a start over (back arrow) notification
 	[NSNotificationCenter.defaultCenter addObserverForName:@"startOverNotification"
 													object:nil
 													 queue:NSOperationQueue.mainQueue
 												usingBlock:^(NSNotification * _Nonnull note) {
-													[self reset];
 													[self dismissViewControllerAnimated:YES completion:nil];
 												}];
 }
 
-- (void)reset
-{
-	[self.navigationController popToRootViewControllerAnimated:NO];
-}
-
 #pragma mark - ConfirmSnapFill
 
+/*
+	
+	A simple example of presenting the CFScanViewController and displaying an alert
+	containing various (data derived from the ID Model after a successful scan)
+	
+	Note: numbers in comments indicate sequential order of steps
+	
+	*/
 - (IBAction)scan
 {
-    // Initialized and return view controller for scanning
+    // #1 - Get the view controller for scanning and begin scanning with a callback
     CSFScanViewController *vc = [SnapFill.sharedInstance scanLicenseWithCompletion:^(CSFIdModel *license) {
 
-		// Prepare the results view controller
-		ResultsViewController *rvc = [ResultsViewController controller];
-		
-		// Set the scanned data (see the CSFIdModel header for usage)
-		rvc.idModel = license;
-		
-        // In this completion block, we want to dismiss the view controller and display a results view controller
-        [self dismissViewControllerAnimated:NO completion:^{
+		// #3 - Begin scanning and handle the resulting model with a callback
+		[self dismissViewControllerAnimated:YES completion:^{
 			
-			// Finally, present the results view controller
-			[self presentViewController:rvc animated:YES completion:nil];
-
-        }];
+			// #4 - Begin aggregating the data you desire from the model's constituent parts
+			// (see headers for CSFBioModel and CSFIssuanceModel)
+			NSDateFormatter *dateFormatter = [NSDateFormatter new];
+			dateFormatter.dateFormat = @"MM-dd-yyyy";
+			
+			NSString *resultString = [NSString stringWithFormat:@"Name: %@ %@\nDOB: %@\nNumber: %@",
+									  license.bio.firstName,
+									  license.bio.lastName,
+									  [dateFormatter stringFromDate:license.bio.birthday],
+									  license.issuance.number];
+			
+			UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Confirm SnapFill"
+																					 message:resultString
+																			  preferredStyle:UIAlertControllerStyleAlert];
+			[alertController addAction:[UIAlertAction actionWithTitle:@"Done"
+																style:UIAlertActionStyleDefault
+															  handler:^(UIAlertAction * _Nonnull action) {
+																// #6 - Dismiss the alert to complete scan cycle
+																[self dismissViewControllerAnimated:YES completion:nil];
+															  }]];
+			
+			// #5 - Show the alert
+			[self presentViewController:alertController animated:YES completion:nil];
+		}];
     }];
 
-    // Present the scan view controller
+    // #2 - Present the view controller
     [self presentViewController:vc animated:true completion:nil];
 }
 
-#pragma mark - Appearance
-
-- (UIStatusBarStyle)preferredStatusBarStyle { return UIStatusBarStyleLightContent; }
-- (BOOL)prefersStatusBarHidden { return NO; }
 
 @end

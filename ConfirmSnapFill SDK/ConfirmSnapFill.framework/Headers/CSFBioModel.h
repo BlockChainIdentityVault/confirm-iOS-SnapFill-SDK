@@ -1,7 +1,11 @@
+#ifndef CSFBioModel_H
+#define CSFBioModel_H
+
 #import <Foundation/Foundation.h>
 
 @interface CSFBioModel : NSObject
 
+// Information is provided exactly as described on the barcode
 @property (nonatomic, retain) NSString *firstName;
 @property (nonatomic, retain) NSString *lastName;
 @property (nonatomic, retain) NSString *middleName;
@@ -17,3 +21,5 @@
 @property (nonatomic, assign) bool organDonor;
 
 @end
+
+#endif

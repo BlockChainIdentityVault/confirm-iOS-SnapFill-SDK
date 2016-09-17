@@ -14,7 +14,7 @@
  always use this, rather than initializing and storing your own
  `SnapFill` instance, to prevent inconsistencies in SDK usage.
  */
-+ (instancetype)sharedInstance;
++ (SnapFill*)sharedInstance;
 
 /**
  Call this method with your SnapFill.io provided API token before

@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F577FD9C23EB6CD92A6D6CF75715193437F59B86",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0A084374476419A40D5E48838931CBB339ED008C" : 9223372036854775807,
+    "55F8ADC15CF685B815586D1FB3F4B4843DDABF8F" : 9223372036854775807,
+    "F577FD9C23EB6CD92A6D6CF75715193437F59B86" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7C77B5A0-289B-4441-B4C3-C24C729722C1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0A084374476419A40D5E48838931CBB339ED008C" : "..",
+    "55F8ADC15CF685B815586D1FB3F4B4843DDABF8F" : "",
+    "F577FD9C23EB6CD92A6D6CF75715193437F59B86" : "confirm-iOS-SnapFill-SDK-STAGING\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ConfirmSnapFillSample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Sample\/ConfirmSnapFillSample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:confirm-io\/iOS-demo-facial.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A084374476419A40D5E48838931CBB339ED008C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:confirm-io\/iOS-SnapFill-SDK-source.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55F8ADC15CF685B815586D1FB3F4B4843DDABF8F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:confirm-io\/confirm-iOS-SnapFill-SDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F577FD9C23EB6CD92A6D6CF75715193437F59B86"
+    }
+  ]
+}
