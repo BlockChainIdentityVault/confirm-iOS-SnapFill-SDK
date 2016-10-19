@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'confirm-iOS-SnapFill-SDK'
-  s.version           = '1.0.3'
+  s.version           = '1.1.0'
 
   s.summary           = 'Confirm.io SnapFill SDK reads and parses data from state and federally issued identity documents for use in your application.'
   s.description       = <<-DESC

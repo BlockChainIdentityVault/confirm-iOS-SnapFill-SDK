@@ -10,6 +10,8 @@ Confirm's SnapFill SDK provides a singleton object called `SnapFill` that acts a
 
 ### Configure
 
+*Note: if you have not yet run the sample, please skip to the bottom of this README first. After performing either the **Running The Sample On The Device** or the **Running The Sample On The Simulator** section, you may return here.*
+
 The first step is to authenticate the `SnapFill` object with the API key you received from [Confirm.io](http://confirm.io/). This will remove the watermark on the default scan UI, and also allow you to set your own custom scan overlay. You can do this by calling `configure:completion:` with your API key and optional completion block. We strongly recommend storing your API key in the `AppDelegate` implementation, rather than a property list, and calling `configure:` from `application:didFinishLaunchingWithOptions:`:
 
 ```objective-c
@@ -50,7 +52,7 @@ To initiate a scan, you must present a `CSFScanViewController` onto the view hie
 
 This will present the camera view with the default scanner UI overlaid. When the scanner detects the correct type of barcode (PDF417), it will automatically scan it and call the completion block. Make sure to dismiss the scanner from the completion block.
 
-### Respond to scan
+### Respond To Scan
 
 As you may have noticed above, we passed a completion block when we initialized the `CSFScanViewController`. This completion block takes a `CSFIdModel` as its input. That model contains all of the personal information stored in the barcode that was just scanned.
 
@@ -81,7 +83,7 @@ Instead of using a completion block, you may choose to implement the `CSFScanner
 @end
 ```
 
-### Customizing the overlay
+### Customizing The Overlay
 
 If you'd like to use something other than the default scan view overlay, you may manually set the `overlayView` property on `CSFScanViewController`, as in the example below:
 
@@ -92,10 +94,27 @@ scanViewController.overlayView = [MyOverlayView new];
 
 If you don't see the overlay view changing, ensure first that the library is properly authenticated. A message will also be logged out if you attempt to call `setOverlayView:` before authenticating.
 
-## Building and running the example on the device
+## Running The Sample On The Device
 
-There is a [sample project](https://github.com/confirm-io/ios-ageverify-demo/tree/master/ConfirmKitExample) included in this repository that acts as a good reference for your own implementation.
+There is a [sample project](https://github.com/confirm-io/confirm-iOS-SnapFill-SDK) included in this repository that acts as a good reference for your own implementation. Included are both Objective-C and Swift samples.
 
-
-1. Select `SnapFillExample` as the active scheme and ensure you are building for **device (you cannot run this on the simulator)**
+- For Objective-C, choose the `Sample` folder. Open the `ConfirmSnapFillSample.xcodeproj` project file.
+- For Swift, choose the `SwiftSample` folder. Open the `SwiftSample.xcodeproj` project file.
+1. Select `SnapFill Sample` as the active scheme and ensure you are building for **device**
 2. Use <kbd>Cmd</kbd>+<kbd>R</kbd> to build and run the demo app.
+
+
+## Running The Sample On The Simulator
+
+There is a [sample project](https://github.com/confirm-io/confirm-iOS-SnapFill-SDK) included in this repository that acts as a good reference for your own implementation. Included are both Objective-C and Swift samples.
+
+- For Objective-C, choose the `Sample` folder. Open the `ConfirmSnapFillSample.xcodeproj` project file.
+- For Swift, choose the `SwiftSample` folder. Open the `SwiftSample.xcodeproj` project file.
+1. Select `SnapFill Simulator Sample` as the active scheme and ensure you are building for **device**
+2. Use <kbd>Cmd</kbd>+<kbd>R</kbd> to build and run the demo app.
+
+
+### Important Tips
+**The release and simulator SDK are named the same.** This is for convenience. To differentiate the frameworks, you can do one of the following:
+- View the contents of the framework. the simulator framework will contain a marker file named **DEBUG**. The release framework will contain a similar marker file, **RELEASE**; or
+- In terminal, navigate to the folder containing the framework and type: `lipo -info ConfirmSnapFill.framework/ConfirmSnapFill`. You will either see ARM (release) or x86/i386 (simulator) architecture present. Or;

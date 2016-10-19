@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/greg/Work/Confirm/iOS-demo-facial/iOS-SnapFill-SDK-source/confirm-iOS-SnapFill-SDK-STAGING/Sample/ConfirmSnapFillSample.xcodeproj">
    </FileRef>
 </Workspace>
