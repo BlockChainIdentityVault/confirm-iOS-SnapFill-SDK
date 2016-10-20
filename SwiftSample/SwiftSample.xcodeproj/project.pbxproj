@@ -7,18 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370584EE1DB96CD6007FE019 /* ConfirmSnapFill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370584ED1DB96CC3007FE019 /* ConfirmSnapFill.framework */; };
+		370584EF1DB96CD6007FE019 /* ConfirmSnapFill.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 370584ED1DB96CC3007FE019 /* ConfirmSnapFill.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		373C1FF91D8B4001003EB03B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C1FF81D8B4001003EB03B /* AppDelegate.swift */; };
 		373C1FFB1D8B4001003EB03B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C1FFA1D8B4001003EB03B /* ViewController.swift */; };
 		373C1FFE1D8B4001003EB03B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373C1FFC1D8B4001003EB03B /* Main.storyboard */; };
 		373C20031D8B4001003EB03B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373C20011D8B4001003EB03B /* LaunchScreen.storyboard */; };
-		37AB76E91DB832CF00DB66B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C1FFA1D8B4001003EB03B /* ViewController.swift */; };
-		37AB76EA1DB832CF00DB66B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C1FF81D8B4001003EB03B /* AppDelegate.swift */; };
-		37AB76EE1DB832CF00DB66B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373C20011D8B4001003EB03B /* LaunchScreen.storyboard */; };
-		37AB76F01DB832CF00DB66B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373C1FFC1D8B4001003EB03B /* Main.storyboard */; };
-		37AB76F71DB833E600DB66B0 /* ConfirmSnapFill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AB76E31DB8325000DB66B0 /* ConfirmSnapFill.framework */; };
-		37AB76F81DB833E600DB66B0 /* ConfirmSnapFill.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37AB76E31DB8325000DB66B0 /* ConfirmSnapFill.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		37AB76F91DB833EB00DB66B0 /* ConfirmSnapFill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AB76E51DB8325000DB66B0 /* ConfirmSnapFill.framework */; };
-		37AB76FA1DB833EB00DB66B0 /* ConfirmSnapFill.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37AB76E51DB8325000DB66B0 /* ConfirmSnapFill.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,18 +22,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				37AB76F81DB833E600DB66B0 /* ConfirmSnapFill.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37AB76F11DB832CF00DB66B0 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				37AB76FA1DB833EB00DB66B0 /* ConfirmSnapFill.framework in Embed Frameworks */,
+				370584EF1DB96CD6007FE019 /* ConfirmSnapFill.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		370584ED1DB96CC3007FE019 /* ConfirmSnapFill.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConfirmSnapFill.framework; path = "../../ConfirmSnapFill SDK/Debug/ConfirmSnapFill.framework"; sourceTree = "<group>"; };
 		373C1FF51D8B4001003EB03B /* SnapFill Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SnapFill Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		373C1FF81D8B4001003EB03B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		373C1FFA1D8B4001003EB03B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,9 +38,6 @@
 		373C20021D8B4001003EB03B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		373C20041D8B4001003EB03B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		373C201B1D8B4E34003EB03B /* SwiftSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftSample-Bridging-Header.h"; sourceTree = "<group>"; };
-		37AB76E31DB8325000DB66B0 /* ConfirmSnapFill.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ConfirmSnapFill.framework; sourceTree = "<group>"; };
-		37AB76E51DB8325000DB66B0 /* ConfirmSnapFill.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ConfirmSnapFill.framework; sourceTree = "<group>"; };
-		37AB76F51DB832CF00DB66B0 /* SnapFill Simulator Sample .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SnapFill Simulator Sample .app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,15 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37AB76F71DB833E600DB66B0 /* ConfirmSnapFill.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37AB76EB1DB832CF00DB66B0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37AB76F91DB833EB00DB66B0 /* ConfirmSnapFill.framework in Frameworks */,
+				370584EE1DB96CD6007FE019 /* ConfirmSnapFill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				373C1FF51D8B4001003EB03B /* SnapFill Sample.app */,
-				37AB76F51DB832CF00DB66B0 /* SnapFill Simulator Sample .app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,7 +71,7 @@
 		373C1FF71D8B4001003EB03B /* SwiftSample */ = {
 			isa = PBXGroup;
 			children = (
-				37AB76E11DB8325000DB66B0 /* ConfirmSnapFill SDK */,
+				370584ED1DB96CC3007FE019 /* ConfirmSnapFill.framework */,
 				373C201B1D8B4E34003EB03B /* SwiftSample-Bridging-Header.h */,
 				373C1FF81D8B4001003EB03B /* AppDelegate.swift */,
 				373C1FFA1D8B4001003EB03B /* ViewController.swift */,
@@ -108,32 +80,6 @@
 				373C20041D8B4001003EB03B /* Info.plist */,
 			);
 			path = SwiftSample;
-			sourceTree = "<group>";
-		};
-		37AB76E11DB8325000DB66B0 /* ConfirmSnapFill SDK */ = {
-			isa = PBXGroup;
-			children = (
-				37AB76E21DB8325000DB66B0 /* Release */,
-				37AB76E41DB8325000DB66B0 /* Simulator */,
-			);
-			name = "ConfirmSnapFill SDK";
-			path = "../../ConfirmSnapFill SDK";
-			sourceTree = "<group>";
-		};
-		37AB76E21DB8325000DB66B0 /* Release */ = {
-			isa = PBXGroup;
-			children = (
-				37AB76E31DB8325000DB66B0 /* ConfirmSnapFill.framework */,
-			);
-			path = Release;
-			sourceTree = "<group>";
-		};
-		37AB76E41DB8325000DB66B0 /* Simulator */ = {
-			isa = PBXGroup;
-			children = (
-				37AB76E51DB8325000DB66B0 /* ConfirmSnapFill.framework */,
-			);
-			path = Simulator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,24 +103,6 @@
 			productReference = 373C1FF51D8B4001003EB03B /* SnapFill Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		37AB76E71DB832CF00DB66B0 /* SnapFill Simulator Sample  */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 37AB76F21DB832CF00DB66B0 /* Build configuration list for PBXNativeTarget "SnapFill Simulator Sample " */;
-			buildPhases = (
-				37AB76E81DB832CF00DB66B0 /* Sources */,
-				37AB76EB1DB832CF00DB66B0 /* Frameworks */,
-				37AB76ED1DB832CF00DB66B0 /* Resources */,
-				37AB76F11DB832CF00DB66B0 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SnapFill Simulator Sample ";
-			productName = SwiftSample;
-			productReference = 37AB76F51DB832CF00DB66B0 /* SnapFill Simulator Sample .app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -187,9 +115,6 @@
 				TargetAttributes = {
 					373C1FF41D8B4001003EB03B = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-					};
-					37AB76E71DB832CF00DB66B0 = {
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -208,7 +133,6 @@
 			projectRoot = "";
 			targets = (
 				373C1FF41D8B4001003EB03B /* SnapFill Sample */,
-				37AB76E71DB832CF00DB66B0 /* SnapFill Simulator Sample  */,
 			);
 		};
 /* End PBXProject section */
@@ -223,15 +147,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37AB76ED1DB832CF00DB66B0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37AB76EE1DB832CF00DB66B0 /* LaunchScreen.storyboard in Resources */,
-				37AB76F01DB832CF00DB66B0 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -241,15 +156,6 @@
 			files = (
 				373C1FFB1D8B4001003EB03B /* ViewController.swift in Sources */,
 				373C1FF91D8B4001003EB03B /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37AB76E81DB832CF00DB66B0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37AB76E91DB832CF00DB66B0 /* ViewController.swift in Sources */,
-				37AB76EA1DB832CF00DB66B0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,14 +282,14 @@
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK/Release",
+					"$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK/Debug",
 				);
 				INFOPLIST_FILE = SwiftSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.confirm.demo.ios.snapfill;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftSample/SwiftSample-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -395,67 +301,16 @@
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK/Release",
+					"$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK/Debug",
 				);
 				INFOPLIST_FILE = SwiftSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.confirm.demo.ios.snapfill;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftSample/SwiftSample-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		37AB76F31DB832CF00DB66B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					x86_64,
-					i386,
-				);
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK/Simulator",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftSample/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = io.confirm.demo.ios.snapfill;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = iphonesimulator;
-				SWIFT_OBJC_BRIDGING_HEADER = "SwiftSample/SwiftSample-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
-				VALID_ARCHS = "i386 x86_64";
-			};
-			name = Debug;
-		};
-		37AB76F41DB832CF00DB66B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					x86_64,
-					i386,
-				);
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK/Simulator",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftSample/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.confirm.demo.ios.snapfill;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = iphonesimulator;
-				SWIFT_OBJC_BRIDGING_HEADER = "SwiftSample/SwiftSample-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
-				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
 		};
@@ -476,15 +331,6 @@
 			buildConfigurations = (
 				373C20081D8B4001003EB03B /* Debug */,
 				373C20091D8B4001003EB03B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		37AB76F21DB832CF00DB66B0 /* Build configuration list for PBXNativeTarget "SnapFill Simulator Sample " */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				37AB76F31DB832CF00DB66B0 /* Debug */,
-				37AB76F41DB832CF00DB66B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,41 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370584EA1DB96C7F007FE019 /* ConfirmSnapFill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370584E61DB96C6F007FE019 /* ConfirmSnapFill.framework */; };
+		370584EB1DB96C7F007FE019 /* ConfirmSnapFill.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 370584E61DB96C6F007FE019 /* ConfirmSnapFill.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		378CE5691DB8376D00DD114E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 378CE55F1DB8376D00DD114E /* AppDelegate.m */; };
 		378CE56F1DB8376D00DD114E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378CE5681DB8376D00DD114E /* ViewController.m */; };
 		378CE5701DB837EA00DD114E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378CE5611DB8376D00DD114E /* LaunchScreen.storyboard */; };
 		378CE5711DB837ED00DD114E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378CE5631DB8376D00DD114E /* Main.storyboard */; };
 		378CE5721DB8381600DD114E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 087B3D751C44598300EC15EE /* main.m */; };
-		378CE5731DB8381800DD114E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 087B3D751C44598300EC15EE /* main.m */; };
-		378CE5791DB8384F00DD114E /* ConfirmSnapFill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378CE5761DB8383B00DD114E /* ConfirmSnapFill.framework */; };
-		378CE57A1DB8384F00DD114E /* ConfirmSnapFill.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 378CE5761DB8383B00DD114E /* ConfirmSnapFill.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		378CE57B1DB8385400DD114E /* ConfirmSnapFill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378CE5781DB8383B00DD114E /* ConfirmSnapFill.framework */; };
-		378CE57C1DB8385400DD114E /* ConfirmSnapFill.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 378CE5781DB8383B00DD114E /* ConfirmSnapFill.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		378CE57D1DB838A100DD114E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 378CE55F1DB8376D00DD114E /* AppDelegate.m */; };
-		378CE57E1DB838A500DD114E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378CE5681DB8376D00DD114E /* ViewController.m */; };
-		378CE57F1DB838AF00DD114E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378CE5611DB8376D00DD114E /* LaunchScreen.storyboard */; };
-		378CE5801DB838B200DD114E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378CE5631DB8376D00DD114E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		37AB76BF1DB81D7900DB66B0 /* Embed Frameworks */ = {
+		370584EC1DB96C7F007FE019 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				378CE57C1DB8385400DD114E /* ConfirmSnapFill.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B00E75061D622C12000A4628 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				378CE57A1DB8384F00DD114E /* ConfirmSnapFill.framework in Embed Frameworks */,
+				370584EB1DB96C7F007FE019 /* ConfirmSnapFill.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +33,7 @@
 /* Begin PBXFileReference section */
 		087B3D711C44598300EC15EE /* ConfirmSnapFillSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfirmSnapFillSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		087B3D751C44598300EC15EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		370584E61DB96C6F007FE019 /* ConfirmSnapFill.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConfirmSnapFill.framework; path = "../../ConfirmSnapFill SDK/Debug/ConfirmSnapFill.framework"; sourceTree = "<group>"; };
 		378CE55E1DB8376D00DD114E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		378CE55F1DB8376D00DD114E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		378CE5621DB8376D00DD114E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,9 +41,6 @@
 		378CE5651DB8376D00DD114E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		378CE5671DB8376D00DD114E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		378CE5681DB8376D00DD114E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		378CE5761DB8383B00DD114E /* ConfirmSnapFill.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ConfirmSnapFill.framework; sourceTree = "<group>"; };
-		378CE5781DB8383B00DD114E /* ConfirmSnapFill.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ConfirmSnapFill.framework; sourceTree = "<group>"; };
-		37AB76C41DB81D7900DB66B0 /* SnapFill Simulator Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SnapFill Simulator Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,15 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				378CE5791DB8384F00DD114E /* ConfirmSnapFill.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37AB76B91DB81D7900DB66B0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				378CE57B1DB8385400DD114E /* ConfirmSnapFill.framework in Frameworks */,
+				370584EA1DB96C7F007FE019 /* ConfirmSnapFill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				087B3D711C44598300EC15EE /* ConfirmSnapFillSample.app */,
-				37AB76C41DB81D7900DB66B0 /* SnapFill Simulator Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,7 +87,7 @@
 		378CE55D1DB8376D00DD114E /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				378CE5741DB8383B00DD114E /* ConfirmSnapFill SDK */,
+				370584E61DB96C6F007FE019 /* ConfirmSnapFill.framework */,
 				378CE55E1DB8376D00DD114E /* AppDelegate.h */,
 				378CE55F1DB8376D00DD114E /* AppDelegate.m */,
 				378CE5611DB8376D00DD114E /* LaunchScreen.storyboard */,
@@ -125,32 +96,6 @@
 				378CE5681DB8376D00DD114E /* ViewController.m */,
 			);
 			path = Sample;
-			sourceTree = "<group>";
-		};
-		378CE5741DB8383B00DD114E /* ConfirmSnapFill SDK */ = {
-			isa = PBXGroup;
-			children = (
-				378CE5751DB8383B00DD114E /* Release */,
-				378CE5771DB8383B00DD114E /* Simulator */,
-			);
-			name = "ConfirmSnapFill SDK";
-			path = "../../ConfirmSnapFill SDK";
-			sourceTree = "<group>";
-		};
-		378CE5751DB8383B00DD114E /* Release */ = {
-			isa = PBXGroup;
-			children = (
-				378CE5761DB8383B00DD114E /* ConfirmSnapFill.framework */,
-			);
-			path = Release;
-			sourceTree = "<group>";
-		};
-		378CE5771DB8383B00DD114E /* Simulator */ = {
-			isa = PBXGroup;
-			children = (
-				378CE5781DB8383B00DD114E /* ConfirmSnapFill.framework */,
-			);
-			path = Simulator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +108,7 @@
 				087B3D6D1C44598300EC15EE /* Sources */,
 				087B3D6E1C44598300EC15EE /* Frameworks */,
 				087B3D6F1C44598300EC15EE /* Resources */,
-				B00E75061D622C12000A4628 /* Embed Frameworks */,
+				370584EC1DB96C7F007FE019 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,24 +117,6 @@
 			name = "SnapFill Sample";
 			productName = ConfirmKitExample;
 			productReference = 087B3D711C44598300EC15EE /* ConfirmSnapFillSample.app */;
-			productType = "com.apple.product-type.application";
-		};
-		37AB76B41DB81D7900DB66B0 /* SnapFill Simulator Sample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 37AB76C11DB81D7900DB66B0 /* Build configuration list for PBXNativeTarget "SnapFill Simulator Sample" */;
-			buildPhases = (
-				37AB76B51DB81D7900DB66B0 /* Sources */,
-				37AB76B91DB81D7900DB66B0 /* Frameworks */,
-				37AB76BB1DB81D7900DB66B0 /* Resources */,
-				37AB76BF1DB81D7900DB66B0 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SnapFill Simulator Sample";
-			productName = ConfirmKitExample;
-			productReference = 37AB76C41DB81D7900DB66B0 /* SnapFill Simulator Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +147,6 @@
 			projectRoot = "";
 			targets = (
 				087B3D701C44598300EC15EE /* SnapFill Sample */,
-				37AB76B41DB81D7900DB66B0 /* SnapFill Simulator Sample */,
 			);
 		};
 /* End PBXProject section */
@@ -235,15 +161,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37AB76BB1DB81D7900DB66B0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				378CE5801DB838B200DD114E /* Main.storyboard in Resources */,
-				378CE57F1DB838AF00DD114E /* LaunchScreen.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -254,16 +171,6 @@
 				378CE56F1DB8376D00DD114E /* ViewController.m in Sources */,
 				378CE5721DB8381600DD114E /* main.m in Sources */,
 				378CE5691DB8376D00DD114E /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37AB76B51DB81D7900DB66B0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				378CE57E1DB838A500DD114E /* ViewController.m in Sources */,
-				378CE57D1DB838A100DD114E /* AppDelegate.m in Sources */,
-				378CE5731DB8381800DD114E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,34 +285,38 @@
 		087B3D891C44598300EC15EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK/Release",
+					"$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK/Debug",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Sample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = io.confirm.demo.ios.snapfill;
 				PRODUCT_NAME = ConfirmSnapFillSample;
 				PROVISIONING_PROFILE = "";
-				SUPPORTED_PLATFORMS = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		087B3D8A1C44598300EC15EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK/Release",
+					"$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK/Debug",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Sample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -413,63 +324,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.confirm.demo.ios.snapfill;
 				PRODUCT_NAME = ConfirmSnapFillSample;
 				PROVISIONING_PROFILE = "";
-				SUPPORTED_PLATFORMS = iphoneos;
-			};
-			name = Release;
-		};
-		37AB76C21DB81D7900DB66B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					x86_64,
-					i386,
-				);
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK/Simulator",
-				);
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK/Simulator";
-				INFOPLIST_FILE = "$(SRCROOT)/Sample/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = io.confirm.demo.ios.snapfill;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SUPPORTED_PLATFORMS = iphonesimulator;
-				VALID_ARCHS = "x86_64 i386";
-			};
-			name = Debug;
-		};
-		37AB76C31DB81D7900DB66B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					x86_64,
-					i386,
-				);
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK/Simulator",
-				);
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../ConfirmSnapFill\\ SDK/Simulator";
-				INFOPLIST_FILE = "$(SRCROOT)/Sample/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = io.confirm.demo.ios.snapfill;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SUPPORTED_PLATFORMS = iphonesimulator;
-				VALID_ARCHS = "x86_64 i386";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -490,15 +346,6 @@
 			buildConfigurations = (
 				087B3D891C44598300EC15EE /* Debug */,
 				087B3D8A1C44598300EC15EE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		37AB76C11DB81D7900DB66B0 /* Build configuration list for PBXNativeTarget "SnapFill Simulator Sample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				37AB76C21DB81D7900DB66B0 /* Debug */,
-				37AB76C31DB81D7900DB66B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
