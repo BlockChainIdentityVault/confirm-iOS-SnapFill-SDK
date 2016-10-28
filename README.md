@@ -6,9 +6,21 @@ Confirm SnapFill supports a wide variety of document types including Driver Lice
 
 ## Usage
 
-*Note: if this is your first time using Confirm SnapFill, please consult the end section regarding **Choosing The Correct SDK Configuration** and **Running The Sample**.*
-
 Confirm's SnapFill SDK provides a singleton object called `SnapFill` that acts as the entry point to the framework's functionality.
+
+## Installation
+
+There are two ways to incorporate the SDK into your existing project.
+
+**Using A Release Snapshot**
+Download a zip from [the repository releases](https://github.com/confirm-io/confirm-iOS-SnapFill-SDK/releases) or grab the zip of the current master. This method also provides a sample. See the last section of this README for choosing the correct SDK configuration and running the sample.
+
+**Using CocoaPods**
+There are two pod specs to reference, depending on your current needs: `confirm-iOS-SnapFill-SDK` for development and debugging (device and simulator), and `confirm-iOS-SnapFill-SDK-release` for distribution (device only).
+
+As an example: to bring in the debug configuration, add this line to your Podfile:
+`pod 'confirm-iOS-SnapFill-SDK`
+
 
 ### Configure
 
