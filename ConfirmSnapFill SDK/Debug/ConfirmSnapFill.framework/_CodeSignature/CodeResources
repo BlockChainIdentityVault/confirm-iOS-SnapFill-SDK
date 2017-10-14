@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		DCcE2/WhOo4KHNMRGn5wPbY7jlE=
+		</data>
 		<key>CSFBack@1x.png</key>
 		<data>
 		jteb4bPwQdWUFAZyewyn0EzeZaw=
@@ -26,7 +30,7 @@
 		</data>
 		<key>CSFScanViewController.nib</key>
 		<data>
-		tEvMK61HmlijItXm3LCFmkCvFOw=
+		vGzBa2f1hihlA4k0s5yGvloF+4o=
 		</data>
 		<key>Headers/CSFBioModel.h</key>
 		<data>
@@ -42,11 +46,11 @@
 		</data>
 		<key>Headers/CSFScanViewController.h</key>
 		<data>
-		ZT4XF3p6HszkG4QK/IKOF9W/qNI=
+		8sqkTLmxW4KWPmoIue0SNnblzHk=
 		</data>
 		<key>Headers/CSFScannerDelegate.h</key>
 		<data>
-		KLjStzGB2b8PZowj6RxS0+/oyZM=
+		tfGOvlArxh8xH7wc/A3fnBVanL4=
 		</data>
 		<key>Headers/ConfirmSnapFill.h</key>
 		<data>
@@ -54,11 +58,11 @@
 		</data>
 		<key>Headers/SnapFill.h</key>
 		<data>
-		mVBbBht31C2g+lKFZWitRLftFtg=
+		uX6PYhiz+ImQEOZtxEUwOYdidGM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NlQFugVurLaHflieeqC7BG5g1rQ=
+		LEc9ViHM8fY3mNmzFfEHFf8OTY8=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -130,11 +134,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tEvMK61HmlijItXm3LCFmkCvFOw=
+			vGzBa2f1hihlA4k0s5yGvloF+4o=
 			</data>
 			<key>hash2</key>
 			<data>
-			W3trP9f/84Q0czpjSFcKl+63kXKgu7nx6C2sAdYH+mI=
+			MgyfHKB00SRV0X3LSzIHDTPLiP4dvjp46+fJnNt3a7w=
 			</data>
 		</dict>
 		<key>Headers/CSFBioModel.h</key>
@@ -174,22 +178,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZT4XF3p6HszkG4QK/IKOF9W/qNI=
+			8sqkTLmxW4KWPmoIue0SNnblzHk=
 			</data>
 			<key>hash2</key>
 			<data>
-			yL1mAx88LFXWV/iQu4zt2mfLwpoFKDRCZ/+IE6YOYcY=
+			8d5zjBgnwlv4vQ3t4m3qAbvmFIZ3p+IW96HXigWEdi8=
 			</data>
 		</dict>
 		<key>Headers/CSFScannerDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KLjStzGB2b8PZowj6RxS0+/oyZM=
+			tfGOvlArxh8xH7wc/A3fnBVanL4=
 			</data>
 			<key>hash2</key>
 			<data>
-			jmcH+JGzXibU5TQhNOO65tDj9dbn5X36q9gpQZzTzL8=
+			Mz/67sOySILncTy8hsRdoqcW6KMxQO1jQ93g8JKhU98=
 			</data>
 		</dict>
 		<key>Headers/ConfirmSnapFill.h</key>
@@ -207,11 +211,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mVBbBht31C2g+lKFZWitRLftFtg=
+			uX6PYhiz+ImQEOZtxEUwOYdidGM=
 			</data>
 			<key>hash2</key>
 			<data>
-			P2db93MqoHH/yeosdiq8AT0Sj0DBG/zSRvAhILfjK3k=
+			F5gAFDZwK37/Ld270BdpGWOzm/HnBcixst9loZcyZy4=
 			</data>
 		</dict>
 		<key>LICENSE</key>

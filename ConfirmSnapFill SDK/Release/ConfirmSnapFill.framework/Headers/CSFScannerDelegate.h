@@ -1,10 +1,13 @@
 
+#ifndef CSFIDMODEL_H
+#define CSFIDMODEL_H
+
 #import "CSFIdModel.h"
 
 /**
- This protocol defines a method for handling the successful
- scan of a driver's license, returning the ID Model for the
- license that was scanned.
+ This optional protocol defines a method for handling the successful
+ scan of a driver's license, returning the ID Model for the license
+ that was scanned. See documentation for additional information.
 */
 @protocol CSFScannerDelegate <NSObject>
 
@@ -16,3 +19,5 @@
 - (void)didScanLicense:(CSFIdModel *)license;
 
 @end
+
+#endif

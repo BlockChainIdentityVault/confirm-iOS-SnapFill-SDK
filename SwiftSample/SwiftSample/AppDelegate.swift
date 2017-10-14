@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		
 		
 		// Make sure to configure Confirm SnapFill with your API key prior to use
-		SnapFill.sharedInstance().configure("{Your ConfirmSnapFill API Key}", completion: nil)
+		SnapFill.sharedInstance().setAPIKey("{Your ConfirmSnapFill API Key}");
 		
 		// Override point for customization after application launch.
 		return true

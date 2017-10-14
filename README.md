@@ -24,17 +24,18 @@ As an example: to bring in the debug configuration, add this line to your Podfil
 
 ### Configure
 
-The first step is to authenticate the `SnapFill` object with the API key you received from [Confirm.io](http://confirm.io/). This will remove the watermark on the default scan UI, and also allow you to set your own custom scan overlay. You can do this by calling `configure:completion:` with your API key and optional completion block. We strongly recommend storing your API key in the `AppDelegate` implementation, rather than a property list, and calling `configure:` from `application:didFinishLaunchingWithOptions:`:
+The first step is to authenticate the `SnapFill` object with the API key you received from [Confirm.io](http://confirm.io/). You can do this by calling `setAPIKey:` with your provided API key. We strongly recommend storing your API key in the `AppDelegate` implementation, rather than a property list, and calling `configure:` from `application:didFinishLaunchingWithOptions:`:
 
 ```objective-c
 #import <ConfirmSnapFill/ConfirmSnapFill.h>
 
-NSString *const SnapFillToken = @"{YOUR_API_KEY_HERE}";
+NSString *const SnapFillKey = @"{YOUR_API_KEY_HERE}";
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  [[SnapFill sharedInstance] configure:SnapFillTokenToken completion:nil];
+  [SnapFill.sharedInstance setAPIKey:ConfirmSnapFillAPIKey];
+
     …
 }
 
@@ -124,3 +125,13 @@ There is a [sample project](https://github.com/confirm-io/confirm-iOS-SnapFill-S
 - For Swift, choose the `SwiftSample` folder. Open the `SwiftSample.xcodeproj` project file.
 
 Use <kbd>Cmd</kbd>+<kbd>R</kbd> to build and run the demo app.
+
+## Troubleshooting
+
+###### Barcodes are not scanning
+<br>
+
+If a barcode doesn’t scan, check the output of your debugger log for an error:<br>
+`## [ERROR] ConfirmSnapFill is unauthorized. Barcode will not be processed. Please call 'setApiKey:’ with a valid API key`
+
+You must set your API key prior to attempting a scan.
