@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		DCcE2/WhOo4KHNMRGn5wPbY7jlE=
-		</data>
 		<key>CSFBack@1x.png</key>
 		<data>
 		jteb4bPwQdWUFAZyewyn0EzeZaw=
@@ -22,7 +18,7 @@
 		</data>
 		<key>CSFBarcodeWhite.png</key>
 		<data>
-		i5lL9YiYN9lAyxcapBhlMAUzF2U=
+		s2klteRf3Y/gK9YjkShhdimtZII=
 		</data>
 		<key>CSFLogo.png</key>
 		<data>
@@ -30,7 +26,7 @@
 		</data>
 		<key>CSFScanViewController.nib</key>
 		<data>
-		vGzBa2f1hihlA4k0s5yGvloF+4o=
+		Pb/F9DaN9a0ezaD7wX8cy8wQNnk=
 		</data>
 		<key>Headers/CSFBioModel.h</key>
 		<data>
@@ -46,7 +42,7 @@
 		</data>
 		<key>Headers/CSFScanViewController.h</key>
 		<data>
-		8sqkTLmxW4KWPmoIue0SNnblzHk=
+		/Ksx6RrJ0buicOexzQ9/36sbfFA=
 		</data>
 		<key>Headers/CSFScannerDelegate.h</key>
 		<data>
@@ -58,11 +54,11 @@
 		</data>
 		<key>Headers/SnapFill.h</key>
 		<data>
-		uX6PYhiz+ImQEOZtxEUwOYdidGM=
+		GE9uNfW5X62M+67vq5sJOSvxlDs=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LEc9ViHM8fY3mNmzFfEHFf8OTY8=
+		hxQnu87mIAkt5/5Aq4O7FqGHEs8=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -70,7 +66,7 @@
 		</data>
 		<key>id_back.jpg</key>
 		<data>
-		3cW/Ac5+wZT4Tgv7EbS0WEJkVNs=
+		L/yee/asQTHeuIzQ1uR6g6v+hjI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -112,11 +108,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			i5lL9YiYN9lAyxcapBhlMAUzF2U=
+			s2klteRf3Y/gK9YjkShhdimtZII=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jb8JrsM78o06O9lhCjHtasdTHIo0zODSRRD3TNY3fgc=
+			tm7lMcS8VEzo0k7B5IE4ADL4h4nSHslln9YZGbNtN+Q=
 			</data>
 		</dict>
 		<key>CSFLogo.png</key>
@@ -134,11 +130,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vGzBa2f1hihlA4k0s5yGvloF+4o=
+			Pb/F9DaN9a0ezaD7wX8cy8wQNnk=
 			</data>
 			<key>hash2</key>
 			<data>
-			MgyfHKB00SRV0X3LSzIHDTPLiP4dvjp46+fJnNt3a7w=
+			itbp/oVgMkd8sgpihWTIOokGYLP9dopZDFJcYSe/uxk=
 			</data>
 		</dict>
 		<key>Headers/CSFBioModel.h</key>
@@ -178,11 +174,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8sqkTLmxW4KWPmoIue0SNnblzHk=
+			/Ksx6RrJ0buicOexzQ9/36sbfFA=
 			</data>
 			<key>hash2</key>
 			<data>
-			8d5zjBgnwlv4vQ3t4m3qAbvmFIZ3p+IW96HXigWEdi8=
+			GksoV4i3s/28qtDbZBp872Uglnsl4wDKTUG9bITjT9E=
 			</data>
 		</dict>
 		<key>Headers/CSFScannerDelegate.h</key>
@@ -211,11 +207,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uX6PYhiz+ImQEOZtxEUwOYdidGM=
+			GE9uNfW5X62M+67vq5sJOSvxlDs=
 			</data>
 			<key>hash2</key>
 			<data>
-			F5gAFDZwK37/Ld270BdpGWOzm/HnBcixst9loZcyZy4=
+			naDOLb4AR2Diyc0Uvo327SSSHFFUV6EVBBRNyHoq9p0=
 			</data>
 		</dict>
 		<key>LICENSE</key>
@@ -233,11 +229,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3cW/Ac5+wZT4Tgv7EbS0WEJkVNs=
+			L/yee/asQTHeuIzQ1uR6g6v+hjI=
 			</data>
 			<key>hash2</key>
 			<data>
-			jZfswF2P/PoSoy6JpOQf/yQLOjJYKjtw8xvxHhTmm1M=
+			jD8jHoMvC5kiSrXBU24GKyg7FhGXUasnip/Gk9qcxBg=
 			</data>
 		</dict>
 	</dict>

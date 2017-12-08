@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name        = 'confirm-iOS-SnapFill-SDK'
-  s.version     = '0.3.0'
+  s.version     = '0.3.1'
   s.author      = 'Confirm.io'
   s.homepage    = 'https://www.confirm.io'
   

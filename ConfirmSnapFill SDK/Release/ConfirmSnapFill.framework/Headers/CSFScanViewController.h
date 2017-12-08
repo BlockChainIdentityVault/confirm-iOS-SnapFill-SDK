@@ -5,7 +5,10 @@
 
 @interface CSFScanViewController : UIViewController
 
-@property (nonatomic, assign) id<CSFScannerDelegate> delegate;
+/**
+ The delegate to be notified when an ID has successfully been scanned.
+ */
+@property (nonatomic, weak) id<CSFScannerDelegate> delegate;
 
 @property (nonatomic, strong) IBOutlet CSFOverlayView *overlayView;
 

@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
 #import "CSFScanViewController.h"
+#import "CSFScannerDelegate.h"
 #import "CSFIdModel.h"
 
 /**
