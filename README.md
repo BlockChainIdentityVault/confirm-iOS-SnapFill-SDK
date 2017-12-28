@@ -16,10 +16,10 @@ There are two ways to incorporate the SDK into your existing project.
 Download a zip from [the repository releases](https://github.com/confirm-io/confirm-iOS-SnapFill-SDK/releases) or grab the zip of the current master. This method also provides a sample. See the last section of this README for choosing the correct SDK configuration and running the sample.
 
 **Using CocoaPods**
-There are two pod specs to reference, depending on your current needs: `confirm-iOS-SnapFill-SDK` for development and debugging (device and simulator), and `confirm-iOS-SnapFill-SDK-release` for distribution (device only).
-
-As an example: to bring in the debug configuration, add this line to your Podfile:
+To add the SDK with CocoaPods, add this line to your Podfile:
 `pod 'confirm-iOS-SnapFill-SDK`
+
+*[See this article](https://guides.cocoapods.org/using/using-cocoapods.html) for more information on using CocoaPods.*
 
 
 ### Configure

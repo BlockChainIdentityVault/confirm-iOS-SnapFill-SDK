@@ -20,13 +20,9 @@
 		<data>
 		s2klteRf3Y/gK9YjkShhdimtZII=
 		</data>
-		<key>CSFLogo.png</key>
-		<data>
-		jTU+pFtNeUI44UIsFFXApwHNczo=
-		</data>
 		<key>CSFScanViewController.nib</key>
 		<data>
-		Pb/F9DaN9a0ezaD7wX8cy8wQNnk=
+		ih9I1OO+fcbJxzDS3/JlSQyRnsk=
 		</data>
 		<key>Headers/CSFBioModel.h</key>
 		<data>
@@ -58,7 +54,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hxQnu87mIAkt5/5Aq4O7FqGHEs8=
+		sgBPhDJIgW52/y8I3Dj2l46bgSo=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -115,26 +111,15 @@
 			tm7lMcS8VEzo0k7B5IE4ADL4h4nSHslln9YZGbNtN+Q=
 			</data>
 		</dict>
-		<key>CSFLogo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jTU+pFtNeUI44UIsFFXApwHNczo=
-			</data>
-			<key>hash2</key>
-			<data>
-			hiPNL+tMplltqL8Kqe3dctao7klPFOod780Em3FrcfM=
-			</data>
-		</dict>
 		<key>CSFScanViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Pb/F9DaN9a0ezaD7wX8cy8wQNnk=
+			ih9I1OO+fcbJxzDS3/JlSQyRnsk=
 			</data>
 			<key>hash2</key>
 			<data>
-			itbp/oVgMkd8sgpihWTIOokGYLP9dopZDFJcYSe/uxk=
+			VwtORaSOOsLUTHD1jAucKdx+llzPRTPmkkLu1BKohZ0=
 			</data>
 		</dict>
 		<key>Headers/CSFBioModel.h</key>
