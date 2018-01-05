@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name        = 'confirmSnapFillDebug'
+  s.name        = 'ConfirmSnapFillDebug'
   s.version     = '0.3.2'
   s.author      = 'Confirm.io'
   s.homepage    = 'https://www.confirm.io'
