@@ -17,7 +17,9 @@ Download a zip from [the repository releases](https://github.com/confirm-io/conf
 
 **Using CocoaPods**
 To add the SDK with CocoaPods, add thess lines to your Podfile:
+
   `pod 'ConfirmSnapFillDebug', :configurations => ['Debug']`
+  
   `pod 'ConfirmSnapFill', :configurations => ['Release']`
 
 *[See this article](https://guides.cocoapods.org/using/using-cocoapods.html) for more information on using CocoaPods.*
