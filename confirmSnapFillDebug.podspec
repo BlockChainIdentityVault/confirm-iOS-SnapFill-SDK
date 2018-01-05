@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name        = 'confirmSnapFillSDK'
+  s.name        = 'confirmSnapFillDebug'
   s.version     = '0.3.2'
   s.author      = 'Confirm.io'
   s.homepage    = 'https://www.confirm.io'
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.platform            = :ios, '8.0'
   s.requires_arc        = true
   
-  s.vendored_frameworks = 'ConfirmSnapFill SDK/Release/ConfirmSnapFill.framework'
+  s.vendored_frameworks = 'ConfirmSnapFill SDK/Debug/ConfirmSnapFill.framework'
   
   s.frameworks          = 'AudioToolbox', 'AVFoundation'
   s.libraries           = 'c++', 'objc'
